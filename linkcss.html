@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="style sheets" href="new.css">
+    <script src="new.js"></script>
+</head>
+
+<body>
+    <div class="demo">
+        <h1>Registration form</h1>
+    </div> <!--for class,to access we use (.),for id we use (#)-->
+    <form class="formclass">
+        <div id="nameId">
+            nameId<span style="color: blue;">*</span><input type="text">
+        </div><br>
+        <div id="EmailId">
+            EmailId<span style="color: blue;">*</span><input type="email">
+        </div><br>
+        <div id="NumberId">
+            NumberId<span style="color: blue;">*</span><input type="number">
+        </div><br>
+        <div id="genderId">
+            select gender:
+            <input type="radio" Id="male" name="shouldsame" value="male">
+            <label for="male">Male</label>
+            <input type="radio" Id="female" name="shouldsame" value="female">
+            <label for="female">Female</label>
+            <div><br>
+                select Qualification:
+                <input type="radio" ID="BE" name="demo" value="BE">
+                <label for ID="BE">BE</label>
+                <input type="radio" ID="BSc" name="demo" value="BSc">
+                <label for ID="BSc">BSc</label>
+                <input type="radio" ID="BCA" name="demo" value="BCA">
+                <label for ID="BCA">BCA</label>
+                <input type="radio"  ID="BA"name="demo" value="BA">
+                <label for ID="BA">BA</label>
+            </div><br>
+        <div>
+            select State
+            <select>
+                <option>Kerala</option>
+                <option>Karnataka</option>
+                <option>Maharashtra</option>
+            </select>
+        </div><br>
+        
+            <div id="techId">
+                select Technologies:
+                <input type="checkbox" Id="inp1" name="Java" value="java">
+                <label for="inp1">Java</label>
+                <input type="checkbox" Id="inp2" name="Python" value="python">
+                <label for="inp2">Python</label>
+                <input type="checkbox" Id="inp3" name="HTML" value="HTML">
+                <label for="inp3">HTML</label>
+                <input type="checkbox" Id="inp4" name="C" value="C">
+                <label for="inp4">C</label>
+    
+            </div><br>
+            <style>
+            #button1{
+                background-color:cadetblue ;
+                color: white;
+                border-radius: 5vh;
+            }
+            #button2{
+                background-color:cadetblue;
+                color: white;
+                border-radius: 5vh;
+            }
+            </style>
+       <div Id="buttons">
+        <button ID=button1 name="submit">Submit</button>
+        <button ID=button2 name="clear">Clear</button>
+      </div>
+
+    </form>
+
+
+</body>
+
+</html>
